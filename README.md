@@ -1,16 +1,48 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple weather application built with React that allows users to search for a city and view its weather information.
 
-Currently, two official plugins are available:
+## Features
+- Search weather by city name.
+- Display temperature and weather conditions.
+- Show city name and country.
+- Display latitude and longitude.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React
+- JavaScript
+- CSS
+- Weather API
 
-## React Compiler
+## Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repository:
+   ```bash
+   git clone <your-repository-url>
+   ```
 
-## Expanding the Oxlint configuration
+2. Navigate to the project directory:
+   ```bash
+   cd weather-app
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## Usage
+
+1. Enter a city name in the search bar.
+2. Click the **Search** button.
+3. View the weather information for the selected city.
+
+## Author
+Ayush Singh
